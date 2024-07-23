@@ -8,12 +8,28 @@ body {
   background-size: cover;
   background-position: center;
   height: 100%;
+  
 }
-p{
+
+ #title {
   font-family:'Cami Rae';
   font-size: 90pt;
   color: #ffff;
   margin-left: 52px;
+  margin-bottom: 5px;
   
   
-} 
+}
+#descricao {
+   margin-left: 52px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+.escopo {
+  width: 400px;
+
+}
+button {
+  margin-left: 52px;
+}

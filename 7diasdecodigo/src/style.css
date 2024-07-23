@@ -1,0 +1,19 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-image: url(compose.png);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+p{
+  font-family:'Cami Rae';
+  font-size: 90pt;
+  color: #ffff;
+  margin-left: 52px;
+  
+  
+} 

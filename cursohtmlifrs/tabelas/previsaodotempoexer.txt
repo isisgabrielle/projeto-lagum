@@ -1,0 +1,29 @@
+<html>
+
+	<head>
+
+		<h1> tabelas </h1>
+
+ 	</head>
+
+	<body> 
+		<section>
+			<table> 
+				<tr>
+					<td> belo horizonte </td>
+					<td> são paulo </td>
+				</tr>
+				<tr>
+					<td> 30</td>
+					<td> 21</td>
+
+				</tr>
+
+			</table>
+ 		</section>
+
+	</body>
+
+ 
+
+ </html>

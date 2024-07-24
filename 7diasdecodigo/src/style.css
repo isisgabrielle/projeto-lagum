@@ -3,33 +3,97 @@ body, html {
   margin: 0;
 }
 
-body {
+.background {
   background-image: url(compose.png);
   background-size: cover;
   background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
   height: 100%;
+  z-index: -1; 
+}
+
+.background::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, transparent, rgba(0, 0, 0, 0.5));
+  pointer-events: none;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  align-items: center;
+  width: 400px;
   
 }
 
- #title {
-  font-family:'Cami Rae';
+#title {
+  font-family: 'Cami Rae', cursive;
   font-size: 90pt;
-  color: #ffff;
+  color: #fff;
   margin-left: 52px;
   margin-bottom: 5px;
-  
-  
 }
-#descricao {
-   margin-left: 52px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    color: white;
-}
-.escopo {
-  width: 400px;
 
+#descricao {
+  margin-left: 52px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: white;
+}
+
+.button{
+  margin-left: 52px;
+  display: flex;
 }
 button {
-  margin-left: 52px;
+ display: inline-flex;
+  line-height: 20px;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  
 }
+#assistir {
+  font-weight: 900;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 5px 15px;
+  border: none;
+  margin-right: 10px;
+  
+
+
+  
+}
+#info {
+  font-weight: 800;
+ border-radius: 5px;
+  color:#ffffff;
+  background-color: #413f3f75;
+  border: none;
+  padding: 8px 20px;
+  }
+
+button i, button svg {
+  margin-right: 5px;
+} 
+header{
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  text-align:left;
+  align-items:center;
+}
+
+ 

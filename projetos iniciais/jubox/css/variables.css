@@ -1,0 +1,72 @@
+:root {
+  /* Letterboxd palette */
+  --bg-primary: #14181C;
+  --bg-secondary: #1C2228;
+  --bg-tertiary: #2C3440;
+  --bg-elevated: #384250;
+  --bg-hover: #334;
+
+  /* Accent — Letterboxd exact */
+  --accent-green: #00E054;
+  --accent-blue: #40BCF4;
+  --accent-orange: #EE7000;
+  --accent-red: #FF2834;
+  --accent-gold: #F5C518;
+
+  /* Text */
+  --text-primary: #FFFFFF;
+  --text-secondary: #9AB;
+  --text-muted: #678;
+  --text-link: var(--accent-blue);
+
+  /* Borders */
+  --border-subtle: rgba(255, 255, 255, 0.04);
+  --border-default: rgba(255, 255, 255, 0.08);
+  --border-strong: rgba(255, 255, 255, 0.15);
+
+  /* Poster */
+  --poster-ratio: 2 / 3;
+  --poster-radius: 4px;
+
+  /* Spacing */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+  --space-3xl: 64px;
+
+  /* Typography */
+  --font-sans: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-size-xs: 0.7rem;
+  --font-size-sm: 0.8125rem;
+  --font-size-base: 0.9375rem;
+  --font-size-lg: 1.0625rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 2rem;
+
+  /* Border radius */
+  --radius-sm: 3px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --transition-fast: 120ms ease;
+  --transition-base: 200ms ease;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.5);
+
+  /* Z-index */
+  --z-header: 100;
+  --z-modal: 200;
+  --z-toast: 300;
+
+  /* Header */
+  --header-height: 88px;
+}
